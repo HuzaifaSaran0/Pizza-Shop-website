@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+</head>
+<style>
+    body{
+        background-color: burlywood;
+    }
+    .bar *{
+        display: inline;
+        left: 36%;
+        flex-direction:column;
+        font-size: large;
+        text-shadow: 20px solid rgb(0, 26, 255);
+        text-decoration: none;
+        color: inherit;
+    }
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    div>* {
+        position: relative;
+        display: inline-flex;
+        left: 41%;
+    }
+
+    .Copyright {
+        position: relative;
+        left: 43%;
+    }
+    #Name{
+        position: relative;
+        left: 20px;
+    }
+    .message{
+        left: 41%;
+        bottom: 145px;
+    }
+h2{
+    display: inline;
+    font-size: 30px;
+    font-family: 'Lemon','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 45%;
+
+}
+.submit{
+    position: relative;
+    left: 9%;
+}
+ 
+</style>
+
+<body>
+    <h1>Huzaifa's Cuisine</h1>
+    <hr>
+    <div class="bar">
+        <span><a href="index.html"><button>Home</button></a></span>
+        <span><a href="menu.html"><button>Menu</button></a></span>
+        <span><a href="about.html"><button>About</button></a></span>
+        <span><a href="timings.html"><button>Timings</button></a></span>
+        <span><a href="contact.html"><button>Contact Us</button></a></span>
+    </div>
+    <hr>
+<h2>Contact Us</h2>
+<br><br>
+<div id="Name">
+<label for="name">Name</label>
+<input type="text" id="name" placeholder="Write your name"></div>
+<br>
+<br>
+<div id="Name">
+<label for="Email">Email</label>
+<input type="text" id="Email" placeholder="Write your email">
+</div>
+<br>
+<br>
+<div >
+<label class="message" for="Message">Message</label>
+<textarea name="text" id="Message" cols="22" rows="10" placeholder="Enter your message here..."></textarea>
+</div>
+<div class="submit">
+    <input type="submit">
+</div>
+
+
+
+    <hr>
+    <span class="Copyright">Copyright &copy 2021 Huzaifa's Cuisine</span>
+
+</body>
+
+</html>
